@@ -1,4 +1,4 @@
-FROM cavm.ddns.net:5000/alpine:3.5
+FROM arm64v8/alpine:3.5
 
 RUN apk add --no-cache ca-certificates
 
